@@ -8,9 +8,7 @@ init({
   debug: false,
   visualDebug: false,
   throttle: 0,
-  overlap: true,
-  straightOnly: false,
-  shouldFocus: true,
+  shouldFocusDOMNode: true,
 });
 
 function App() {

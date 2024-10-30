@@ -13,7 +13,7 @@ function Layout({ children }: LayoutProps) {
 
   // Set initial focus to the sidebar when the component mounts
   useEffect(() => {
-    setFocus();
+    setFocus('LAYOUT_FOCUS_KEY');
   }, [setFocus]);
 
   return (
