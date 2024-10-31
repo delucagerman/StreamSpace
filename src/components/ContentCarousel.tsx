@@ -25,7 +25,7 @@ function ContentCarousel({ title, items }: ContentCarouselProps) {
     focusable: true,
     saveLastFocusedChild: true,
     trackChildren: true,
-    preferredChildFocusKey: null,
+    preferredChildFocusKey: undefined,
   });
 
   const renderItem = useCallback((item: ContentItem) => {

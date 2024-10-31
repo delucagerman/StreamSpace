@@ -1,4 +1,3 @@
-import React from 'react';
 import { useFocusable, FocusContext } from '@noriginmedia/norigin-spatial-navigation';
 import ContentCarousel from '../components/ContentCarousel';
 
@@ -8,7 +7,56 @@ const popularSeries = [
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
-  // Add more items as needed
+  {
+    id: 1,
+    title: "Breaking Bad",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "Breaking Bad",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "Breaking Bad",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "Breaking Bad",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "Breaking Bad",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "Breaking Bad",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "Breaking Bad",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "Breaking Bad",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "Breaking Bad",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "Breaking Bad",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+  },
 ];
 
 const newReleases = [
@@ -17,7 +65,61 @@ const newReleases = [
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
-  // Add more items as needed
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 1,
+    title: "The Crown",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+  },
 ];
 
 function Series() {

@@ -65,7 +65,7 @@ function Sidebar() {
     focusable: true,
     saveLastFocusedChild: true,
     trackChildren: true,
-    preferredChildFocusKey: null,
+    preferredChildFocusKey: undefined,
     isFocusBoundary: true,
   });
 

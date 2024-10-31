@@ -45,6 +45,72 @@ const dramaMovies = [
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 1,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
   // Add more items as needed
 ];
 

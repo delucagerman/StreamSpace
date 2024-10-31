@@ -1,4 +1,3 @@
-import React from 'react';
 import { useFocusable, FocusContext } from '@noriginmedia/norigin-spatial-navigation';
 import ContentCarousel from '../components/ContentCarousel';
 
