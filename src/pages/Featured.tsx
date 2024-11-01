@@ -2,6 +2,9 @@ import {
   useFocusable,
   FocusContext,
 } from '@noriginmedia/norigin-spatial-navigation';
+import { useState } from 'react';
+import ContentDetail from '../components/ContentDetail';
+import clsx from 'clsx';
 
 interface GridItem {
   id: number;
@@ -50,19 +53,26 @@ const gridItems: GridItem[] = [
 ];
 
 function Featured() {
+  const [selectedItem, setSelectedItem] = useState<GridItem | null>(null);
   const { ref: pageRef, focusKey: pageFocusKey } = useFocusable({
     focusKey: 'FEATURED_FOCUS_KEY',
   });
 
   const renderGridItem = (item: GridItem) => {
-    const { ref, focused } = useFocusable();
+    const { ref, focused } = useFocusable({
+      focusable: true,
+      onEnterPress: () => setSelectedItem(item),
+    });
 
     return (
       <div
         key={item.id}
         ref={ref}
-        className={`relative rounded-lg overflow-hidden cursor-pointer transition-transform duration-150 
-          ${focused ? 'ring-2 ring-blue-500 scale-105' : ''}`}
+        className={clsx(
+          'relative rounded-lg overflow-hidden cursor-pointer',
+          'transition-transform duration-150',
+          focused ? 'ring-2 ring-blue-500 scale-105' : ''
+        )}
       >
         <img
           src={item.image}
@@ -70,8 +80,10 @@ function Featured() {
           className="w-full h-48 object-cover"
         />
         <div
-          className={`absolute inset-0 bg-black/60 flex items-center justify-center p-4 
-          ${focused ? 'opacity-100' : 'opacity-0 hover:opacity-100'}`}
+          className={clsx(
+            'absolute inset-0 bg-black/60 flex items-center justify-center p-4',
+            focused ? 'opacity-100' : 'opacity-0 hover:opacity-100'
+          )}
         >
           <h3 className="text-lg font-medium text-white text-center">
             {item.title}
@@ -88,6 +100,13 @@ function Featured() {
         <div className="grid grid-cols-4 gap-6">
           {gridItems.map(renderGridItem)}
         </div>
+        
+        {selectedItem && (
+          <ContentDetail 
+            item={selectedItem}
+            onClose={() => setSelectedItem(null)}
+          />
+        )}
       </div>
     </FocusContext.Provider>
   );

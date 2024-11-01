@@ -8,12 +8,18 @@ interface LayoutProps {
 
 function Layout({ children }: LayoutProps) {
   const { ref, focusKey, setFocus } = useFocusable({
-    focusKey: 'LAYOUT_FOCUS_KEY'
+    focusKey: 'LAYOUT_FOCUS_KEY',
+    saveLastFocusedChild: true,
+    trackChildren: true,
+    isFocusBoundary: true,
   });
 
-  // Set initial focus to the sidebar when the component mounts
   useEffect(() => {
-    setFocus('LAYOUT_FOCUS_KEY');
+    const timer = setTimeout(() => {
+      setFocus('LAYOUT_FOCUS_KEY');
+    }, 100);
+
+    return () => clearTimeout(timer);
   }, [setFocus]);
 
   return (

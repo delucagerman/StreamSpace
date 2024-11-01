@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { useCallback, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import {
@@ -6,6 +6,7 @@ import {
   FocusContext,
 } from '@noriginmedia/norigin-spatial-navigation';
 import clsx from 'clsx';
+import ContentDetail from './ContentDetail';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
@@ -21,24 +22,30 @@ interface ContentCarouselProps {
 }
 
 function ContentCarousel({ title, items }: ContentCarouselProps) {
+  const [selectedItem, setSelectedItem] = useState<ContentItem | null>(null);
+  
   const { ref: carouselRef, focusKey: carouselFocusKey } = useFocusable({
     focusable: true,
     saveLastFocusedChild: true,
     trackChildren: true,
-    preferredChildFocusKey: undefined,
   });
 
   const renderItem = useCallback((item: ContentItem) => {
     const { ref, focused } = useFocusable({
       focusable: true,
       onEnterPress: () => {
-        console.log('Selected:', item.title);
+        console.log('Enter pressed on:', item.title);
+        setSelectedItem(item);
+        return true;
       },
     });
 
     return (
       <div
         ref={ref}
+        role="button"
+        tabIndex={0}
+        onClick={() => setSelectedItem(item)}
         className={clsx(
           'relative group cursor-pointer rounded-lg overflow-hidden',
           'transition-all duration-200',
@@ -68,24 +75,37 @@ function ContentCarousel({ title, items }: ContentCarouselProps) {
     <FocusContext.Provider value={carouselFocusKey}>
       <div ref={carouselRef} className="space-y-4">
         <h2 className="text-2xl font-semibold px-4">{title}</h2>
+        <div className="relative">
+          <Swiper
+            modules={[Navigation]}
+            spaceBetween={20}
+            slidesPerView={4.5}
+            navigation
+            className="!overflow-visible"
+            breakpoints={{
+              320: { slidesPerView: 1.5 },
+              640: { slidesPerView: 2.5 },
+              768: { slidesPerView: 3.5 },
+              1024: { slidesPerView: 4.5 },
+            }}
+          >
+            {items.map((item) => (
+              <SwiperSlide key={item.id}>
+                {renderItem(item)}
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
 
-        <Swiper
-          modules={[Navigation]}
-          spaceBetween={20}
-          slidesPerView={4.5}
-          navigation
-          className="!overflow-visible"
-          breakpoints={{
-            320: { slidesPerView: 1.5 },
-            640: { slidesPerView: 2.5 },
-            768: { slidesPerView: 3.5 },
-            1024: { slidesPerView: 4.5 },
-          }}
-        >
-          {items.map((item) => (
-            <SwiperSlide key={item.id}>{renderItem(item)}</SwiperSlide>
-          ))}
-        </Swiper>
+        {selectedItem && (
+          <ContentDetail 
+            item={selectedItem}
+            onClose={() => {
+              console.log('Closing modal');
+              setSelectedItem(null);
+            }}
+          />
+        )}
       </div>
     </FocusContext.Provider>
   );

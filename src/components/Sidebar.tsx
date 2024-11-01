@@ -24,7 +24,6 @@ function NavItem({
   const { ref, focused } = useFocusable({
     focusable: true,
     onEnterPress: () => navigate(path),
-    onArrowPress: () => true,
   });
 
   return (

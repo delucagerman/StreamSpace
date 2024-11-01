@@ -59,7 +59,10 @@ const popularItems = [
 
 function Home() {
   const { ref, focusKey } = useFocusable({
-    focusKey: 'HOME_FOCUS_KEY'
+    focusKey: 'HOME_FOCUS_KEY',
+    saveLastFocusedChild: true,
+    trackChildren: true,
+    isFocusBoundary: true,
   });
 
   return (
