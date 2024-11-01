@@ -66,7 +66,6 @@ function Featured() {
   });
 
   const handleItemClick = (item: GridItem) => {
-    console.log('Item clicked:', item);
     setSelectedItem(item);
   };
 
@@ -74,7 +73,6 @@ function Featured() {
     const { ref, focused } = useFocusable({
       focusable: true,
       onEnterPress: () => {
-        console.log('Enter pressed on:', item);
         handleItemClick(item);
         return true;
       },

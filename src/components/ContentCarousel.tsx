@@ -34,7 +34,6 @@ function ContentCarousel({ title, items }: ContentCarouselProps) {
     const { ref, focused } = useFocusable({
       focusable: true,
       onEnterPress: () => {
-        console.log('Enter pressed on:', item.title);
         setSelectedItem(item);
         return true;
       },
@@ -101,7 +100,6 @@ function ContentCarousel({ title, items }: ContentCarouselProps) {
           <ContentDetail 
             item={selectedItem}
             onClose={() => {
-              console.log('Closing modal');
               setSelectedItem(null);
             }}
           />

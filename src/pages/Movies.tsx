@@ -40,36 +40,6 @@ const actionMovies = [
 
 const dramaMovies = [
   {
-    id: 1,
-    title: 'The Godfather',
-    image:
-      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 2,
-    title: 'The Godfather',
-    image:
-      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 3,
-    title: 'The Godfather',
-    image:
-      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 4,
-    title: 'The Godfather',
-    image:
-      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 5,
-    title: 'The Godfather',
-    image:
-      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
-  },
-  {
     id: 6,
     title: 'The Godfather',
     image:
@@ -82,7 +52,7 @@ const dramaMovies = [
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 6,
+    id: 8,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
@@ -107,6 +77,36 @@ const dramaMovies = [
   },
   {
     id: 12,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 13,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 14,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 15,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 16,
+    title: 'The Godfather',
+    image:
+      'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 17,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
