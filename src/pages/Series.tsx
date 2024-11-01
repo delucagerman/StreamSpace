@@ -8,52 +8,52 @@ const popularSeries = [
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 2,
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 3,
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 4,
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 5,
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 6,
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 7,
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 8,
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 9,
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 10,
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 11,
     title: "Breaking Bad",
     image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
   },
@@ -66,57 +66,57 @@ const newReleases = [
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 2,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 3,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 4,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 5,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 6,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 7,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 8,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 9,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 10,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 11,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },
   {
-    id: 1,
+    id: 12,
     title: "The Crown",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
   },

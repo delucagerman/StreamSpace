@@ -46,67 +46,67 @@ const dramaMovies = [
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 2,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 3,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 4,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 5,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 6,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 7,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 6,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 9,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 10,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 11,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    id: 1,
+    id: 12,
     title: 'The Godfather',
     image:
       'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80',
